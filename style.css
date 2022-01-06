@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rubik', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.h1-color{
+    color: rgb(255, 51, 0);
+}
+section{
+    height: 494px;
+}
+.slice-color h1{
+    color:black;
+}
+.slice-color{
+    border-left: 3px solid #FF5959;
+    padding-left: 10px;
+}
+.button{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding : 10px 40px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+button{
+    border : 1px solid #FF5959;
+}
+.flexible-container{
+    display: flex;
+    margin: 0px 11%;
+}
+.intro{
+    margin-top: 100px;
+}
+.intro-part{
+    width: 40%;
+    height: 80%;
+    margin-right: 100px;
+}
+.intro-part img{
+    width: 90%;
+    margin-left: 150px;
+}
+.part{
+    width: 50%;
+    margin: 0px 10px;
+}
+.part img{
+    width: 90%;
+    height: 80%;
+}
+.mission{
+    margin: 40px 11%;
+}
+.mission h1{
+    text-align: center;
+}
+.mission-items{
+    display: flex;
+    
+}
+.mission-items img{
+    height: 141px;
+    width: 141px;
+}
+.item{
+    width: 33%;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    border-radius: 10%;
+}
+#color1{
+    background-color: rgba(79, 157, 166, 10%);
+}
+#color2{
+    background-color: rgba(255, 89, 89, 10%);
+}
+#color3{
+    background-color: #FFF4D6;
+}
+.coding{
+    border-radius: 20px;
+}
+.community{
+    margin-top: -10px;
+    margin-bottom: -40px;
+}
+.share{
+    text-align: center;
+    margin:  0px 11%;
+    background-color: white;
+}
+.share-items{
+    margin-top: -40px;
+    display: flex;
+    background-color: rgba(255, 89, 89, 10%);
+    border-image: linear-gradient(tomato,#ff4e4e);
+    border-image-slice: 1;
+    border-left: 4px solid;
+}
+
+form{
+    margin-top: 15%;
+}
+
+footer{
+    padding: 10px 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
