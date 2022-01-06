@@ -9,6 +9,9 @@ h1{
 .h1-color{
     color: rgb(255, 51, 0);
 }
+p{
+    color: dimgray;
+}
 section{
     height: 494px;
 }
